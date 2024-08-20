@@ -3,33 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitchen Story</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
-</head>
+    <title>Kitchen Story - Home</title>
+    <link rel="stylesheet" href="../CSS/styles.css"
 <body>
-    <!-- Header Section -->
-    <header class="header">
-        <h1 class="title">Welcome to Kitchen Story</h1>
+    <header>
+        <h1>Kitchen Story</h1>
     </header>
-
-    <!-- Search Form -->
-    <section class="search-section">
-        <form id="search-form" class="search-form">
-            <input type="text" id="search-input" class="search-input" placeholder="Search for food items..." />
-            <button type="submit" class="search-button">Search</button>
+    <main>
+        <form id="searchForm">
+            <label for="search">Search for food items:</label>
+            <input type="text" id="search" name="search" placeholder="Enter food item" required>
+            <button type="submit">Search</button>
         </form>
-    </section>
-
-    <!-- Search Results Section -->
-    <section id="search-results" class="search-results">
-        <!-- Results will be dynamically inserted here -->
-    </section>
-
-    <!-- Footer Section -->
-    <footer class="footer">
-        <p>&copy; 2024 Kitchen Story. All rights reserved.</p>
-    </footer>
-
-    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+        <div id="searchResults"></div>
+    </main>
+    <script src="banana,""apple"pear"></script>
 </body>
 </html>
